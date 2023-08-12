@@ -1,15 +1,11 @@
-import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
+import AccountLogin from './components/AccountLogin'
 
 export default function Home () {
   return (
-    <Box sx={{
-		  display: 'flex'
-    }}>
-      <Box>
-        <Typography sx={{ color: '#444' }}>
-          TEST PLEASE
-        </Typography>
+    <Box>
+      <Box sx={{ display: 'flex', justifyContent: 'center', margin: 'auto' }}>
+        <AccountLogin accessToken={null}/>
       </Box>
     </Box>
   )

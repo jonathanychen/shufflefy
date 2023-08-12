@@ -25,9 +25,9 @@ export default function RootLayout ({
       <body className={inter.className}>
         <ThemeRegistry>
           <AppBar position="fixed" sx={{ zIndex: 2000 }}>
-            <Toolbar sx={{ backgroundColor: 'background.paper' }}>
-              <ShuffleIcon sx={{ color: '#444', mr: 2, transform: 'translateY(-2px)' }}/>
-              <Typography variant="h6" noWrap component="div" color="black">
+            <Toolbar sx={{ backgroundColor: 'background.paper', display: 'flex', flexDirection: 'row', width: '100%' }}>
+              <ShuffleIcon sx={{ color: 'white', mr: 2, transform: 'translateY(-2px)' }}/>
+              <Typography variant="h6" noWrap component="div" color="white">
                 Shufflefy
               </Typography>
             </Toolbar>
