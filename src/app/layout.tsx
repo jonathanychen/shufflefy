@@ -5,7 +5,7 @@ import ShuffleIcon from '@mui/icons-material/Shuffle'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Typography from '@mui/material/Typography'
-import ThemeRegistry from './components/ThemeRegistry/ThemeRegistry'
+import ThemeRegistry from './_components/ThemeRegistry/ThemeRegistry'
 import Box from '@mui/material/Box'
 
 const inter = Inter({ subsets: ['latin'] })

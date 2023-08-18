@@ -1,5 +1,5 @@
 import { Box } from '@mui/system'
-import AccountLogin from './components/AccountLogin'
+import AccountLogin from './_components/AccountLogin'
 
 export default function Home () {
   return (
